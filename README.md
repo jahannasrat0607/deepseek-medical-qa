@@ -34,10 +34,7 @@ git clone https://github.com/yourusername/deepseek-medical-qa.git
 cd deepseek-medical-qa
 ```
 
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
+2. Install required packages
 
 3. Set your secret tokens:
 - In Kaggle, go to **Add-ons → Secrets** and add your Hugging Face (`HF_TOKEN`) and Weights & Biases (`WANDB_API_KEY`).
