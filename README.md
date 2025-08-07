@@ -50,24 +50,6 @@ cd deepseek-medical-qa
 
 ---
 
-## Inference & Evaluation
-
-After training, you can run inference on new medical questions using the saved checkpoint.  
-Example:
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
-model = AutoModelForCausalLM.from_pretrained("path_to_your_checkpoint")
-tokenizer = AutoTokenizer.from_pretrained("path_to_your_checkpoint")
-
-prompt = "What are the symptoms of dengue fever?"
-inputs = tokenizer(prompt, return_tensors="pt")
-outputs = model.generate(**inputs, max_new_tokens=256)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-```
-
----
-
 ## Acknowledgements
 
 - [DeepSeek-AI](https://huggingface.co/deepseek-ai)
