@@ -30,14 +30,14 @@ This project demonstrates how to fine-tune the [`deepseek-ai/DeepSeek-R1-Distill
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/deepseek-medical-qa.git
+git clone https://github.com/jahannasrat0607/deepseek-medical-qa.git
 cd deepseek-medical-qa
 ```
 
 2. Install required packages
 
 3. Set your secret tokens:
-- In Kaggle, go to **Add-ons → Secrets** and add your Hugging Face (`HF_TOKEN`) and Weights & Biases (`WANDB_API_KEY`).
+- In Kaggle, go to **Add-ons -> Secrets** and add your Hugging Face (`HF_TOKEN`) and Weights & Biases (`WANDB_API_KEY`).
 
 ---
 
